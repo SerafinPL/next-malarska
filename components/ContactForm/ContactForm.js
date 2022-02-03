@@ -12,27 +12,18 @@ function Formspree(props) {
   }
   return (
     <form onSubmit={handleSubmit} className={styles.Form}>
-      <label htmlFor="name">Imię</label>
-      <input id="name" type="text" name="name" placeholder="Twoje imię"/>
-      <label htmlFor="email">Adres email</label>
-      <input
-        id="email"
-        type="email"
-        name="email"
-        placeholder="Adres@email.com"
-      />
-      <ValidationError prefix="Email" field="email" errors={state.errors} />
-      <label htmlFor="message">Wiadomość</label>
-      <input id="message" name="message" placeholder="Treść Wiadomości" />
-      <ValidationError prefix="Message" field="message" errors={state.errors} />
-      <button
-        type="submit"
-        variant="outlined"
-        disabled={state.submitting}
-        sx={{ m: 1 }}
-      >
-        Wyślij Wiadomość
-      </button>
+      <textarea id="message" name="message" placeholder="Twoja wiadomość" />
+      <div>
+        <input id="email" type="email" name="email" placeholder="Adres email" />
+        <ValidationError prefix="Email" field="email" errors={state.errors} />
+
+        <ValidationError
+          prefix="Message"
+          field="message"
+          errors={state.errors}
+        />
+        <button type="submit">Wyślij Wiadomość</button>
+      </div>
     </form>
   );
 }
