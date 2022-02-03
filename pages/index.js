@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.scss';
 import SietHeader from '../components/Header/siteHeader';
 import LookArt from '../components/LookArt/LookArt';
 import Bio from '../components/Bio/Bio';
+import ContactForm from '../components/ContactForm/ContactForm';
 
 export default function Home() {
   return (
