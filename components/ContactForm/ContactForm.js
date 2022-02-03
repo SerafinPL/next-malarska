@@ -8,10 +8,11 @@ function Formspree(props) {
   const [state, handleSubmit] = useForm("xlezjdor");
 
   if (state.succeeded) {
-    return <p>Dziękuje za wysłanie wiadomości</p>;
+    return <p className={styles.Text}>Dziękuje za wysłanie wiadomości</p>;
   }
   return (
     <form onSubmit={handleSubmit} className={styles.Form}>
+        <h1>Kontakt</h1>
       <textarea id="message" name="message" placeholder="Twoja wiadomość" />
       <div>
         <input id="email" type="email" name="email" placeholder="Adres email" />

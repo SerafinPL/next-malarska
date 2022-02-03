@@ -1,8 +1,14 @@
 .Form {
+    margin-top: 100px;
+
   display: flex;
   flex-direction: column;
   height: 100vh;
   align-items: center;
+
+  h1{
+    font-size: 3rem;
+}
 
   div {
     display: flex;
@@ -15,7 +21,11 @@
     input,
     button {
       width: Min(90%, 250px);
-      margin: 5% auto;
+      margin: 5% 5%;
+    }
+
+    input{
+        width: Min(90%, 400px);
     }
   }
 
@@ -36,16 +46,31 @@
     width: 250px;
   }
 
+  textarea{
+      height: 50vh;
+  }
+
   @media screen and (min-width: 700px) {
     div {
       padding: 5%;
+      flex-wrap: nowrap;
+      justify-content: space-between;  
+         
+
       input {
         width: Calc(90% - 250px);
-        margin: auto;
+        margin: 0;
+
       }
       button {
-        margin: auto;
+        margin: 0;
+        width: 250px;
       }
     }
   }
+}
+
+.Text{
+    text-align: center;
+    margin: 100px 0;
 }
