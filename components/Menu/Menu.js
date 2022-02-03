@@ -19,7 +19,7 @@ const Menu = (props) => {
         <Link href="#">Malarstwo</Link>
         <Link href="#">Bio</Link>
         <Link href="#">Kontakt</Link>
-        <img src="/assets/anitkalogo.png" alt="Logo Anita Machura, Anity Machury" />
+        <img src="assets/anitkalogo.png" alt="Logo Anita Machura, Anity Machury" />
         <p>Polski/Niemiecki/Angilksi</p>
       </nav>
     </React.Fragment>
