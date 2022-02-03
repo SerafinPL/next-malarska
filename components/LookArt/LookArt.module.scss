@@ -1,0 +1,13 @@
+.LookArt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #000;
+
+    img{
+        max-width: 100%;
+        margin: 100px 0;
+        max-height: 80vh;
+    }
+    
+}
