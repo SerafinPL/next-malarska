@@ -16,7 +16,9 @@ export default function Home() {
 
 
       <SietHeader/>
-      
+      <LookArt fileName='plewbig'/>
+      <LookArt fileName='gnoznezjabig'/>
+      <LookArt fileName='jest_superbig'/>
      
     </div>
   )
