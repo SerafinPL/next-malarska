@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.scss';
 
 import SietHeader from '../components/Header/siteHeader';
 import LookArt from '../components/LookArt/LookArt';
+import Bio from '../components/Bio/Bio';
 
 export default function Home() {
   return (
@@ -16,12 +17,23 @@ export default function Home() {
 
 
       <SietHeader/>
+
       <LookArt fileName='plewbig'/>
       <LookArt fileName='gnoznezjabig'/>
       <LookArt fileName='jest_superbig'/>
-      <LookArt fileName='plewbig'/>
-      <LookArt fileName='gnoznezjabig'/>
-      <LookArt fileName='jest_superbig'/>
+      <LookArt fileName='matkabig'/>
+      <LookArt fileName='autoportret-z-maskamibig'/>
+      <LookArt fileName='melancholikbig'/>
+      <LookArt fileName='miłoscbig'/>
+      <LookArt fileName='autoportretzkrolikiembig'/>
+      <LookArt fileName='melancholjabig'/>
+      <LookArt fileName='autoportretbig'/>
+      <LookArt fileName='wedrowiec'/>
+      <LookArt fileName='reminiscencje'/>
+
+      <Bio/>
+
+      <ContactForm/>
      
     </div>
   )
