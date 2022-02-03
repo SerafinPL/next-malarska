@@ -1,14 +1,14 @@
 import React from "react";
 
-/
+import styles from './LookArt.module.scss'
 
 
 const LookArt = (props) => {
 
   return (
-    <React.Fragment>
+    <div className={styles.LookArt}>
       <img src={`/assets/${props.fileName}.png`} alt="Logo Anita Machura, Anity Machury" />
-    </React.Fragment>
+    </div>
   );
 };
 

@@ -19,6 +19,9 @@ export default function Home() {
       <LookArt fileName='plewbig'/>
       <LookArt fileName='gnoznezjabig'/>
       <LookArt fileName='jest_superbig'/>
+      <LookArt fileName='plewbig'/>
+      <LookArt fileName='gnoznezjabig'/>
+      <LookArt fileName='jest_superbig'/>
      
     </div>
   )
