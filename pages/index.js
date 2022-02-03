@@ -13,9 +13,14 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Anita Machura</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Straona malarstwa Anity Mchury znakomitej artystki"
+          content="Strona malarstwa Anity Mchury znakomitej artystki"
+        />
+        <meta
+          name="author"
+          content="Code: Kuba Koder = Jakub Grzegorzek, Design: Anita Machura"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
