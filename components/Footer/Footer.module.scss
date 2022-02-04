@@ -13,13 +13,19 @@ align-items: end;
 .secondBox{
     background-color: #000;
      padding: 10px;
-     border-radius: 25px 0 0;
-     float: right;
+     
      display: inline;
-     border: 1px solid #fff;
+     
      background-color:  #000;
      font-weight: lighter;
      font-size: 0.7rem;
     
+     h3{
+         margin: 0;
+     }
+
+     a{
+         text-decoration: underline;
+     }
  
 }

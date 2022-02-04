@@ -7,7 +7,7 @@ const Footer = () => {
     <div className={styles.firstBox}>
       <div className={styles.secondBox}>
         <h3>
-          <a href="https://kubakoder.pl">Powered by KubaKoder</a>
+          Designed by <a href="#">Anita Machura</a> powered with ❤️ by <a href="https://kubakoder.pl"> Kuba Koder</a>
         </h3>
       </div>
     </div>
