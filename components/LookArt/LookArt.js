@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from './LookArt.module.scss'
+import styles from './LookArt.module.scss';
 
 
 const LookArt = (props) => {

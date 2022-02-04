@@ -7,6 +7,7 @@ import LookArt from "../components/LookArt/LookArt";
 import Bio from "../components/Bio/Bio";
 import ContactForm from "../components/ContactForm/ContactForm";
 import FadeInSection from "../components/FadeFunc/FadeFunc";
+import Footer from "../components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -58,6 +59,7 @@ export default function Home() {
 
       <ContactForm /></FadeInSection>
       
+      <Footer />
     </div>
   );
 }
