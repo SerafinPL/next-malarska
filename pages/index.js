@@ -24,6 +24,7 @@ export default function Home() {
           content="Code: Kuba Koder = Jakub Grzegorzek, Design: Anita Machura"
         />
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet" /> 
       </Head>
 
       <SietHeader />
@@ -31,34 +32,45 @@ export default function Home() {
         <LookArt fileName="plewbig" />
       </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="gnoznezjabig" /></FadeInSection>
+        <LookArt fileName="gnoznezjabig" />
+      </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="jest_superbig" /></FadeInSection>
+        <LookArt fileName="jest_superbig" />
+      </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="matkabig" /></FadeInSection>
+        <LookArt fileName="matkabig" />
+      </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="autoportret-z-maskamibig" /></FadeInSection>
+        <LookArt fileName="autoportret-z-maskamibig" />
+      </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="melancholikbig" /></FadeInSection>
+        <LookArt fileName="melancholikbig" />
+      </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="miłoscbig" /></FadeInSection>
+        <LookArt fileName="miłoscbig" />
+      </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="autoportretzkrolikiembig" /></FadeInSection>
+        <LookArt fileName="autoportretzkrolikiembig" />
+      </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="melancholjabig" /></FadeInSection>
+        <LookArt fileName="melancholjabig" />
+      </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="autoportretbig" /></FadeInSection>
+        <LookArt fileName="autoportretbig" />
+      </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="wedrowiec" /></FadeInSection>
+        <LookArt fileName="wedrowiec" />
+      </FadeInSection>
       <FadeInSection>
-      <LookArt fileName="reminiscencje" /></FadeInSection>
+        <LookArt fileName="reminiscencje" />
+      </FadeInSection>
       <FadeInSection>
+        <Bio />
+      </FadeInSection>
+      <FadeInSection>
+        <ContactForm />
+      </FadeInSection>
 
-      <Bio /></FadeInSection>
-      <FadeInSection>
-
-      <ContactForm /></FadeInSection>
-      
       <Footer />
     </div>
   );

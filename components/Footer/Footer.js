@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Footer.module.scss";
 
-const Footer = (props) => {
+const Footer = () => {
   return (
     <div className={styles.firstBox}>
       <div className={styles.secondBox}>
