@@ -11,21 +11,29 @@ function Formspree(props) {
     return <p className={styles.Text}>Dziękuje za wysłanie wiadomości</p>;
   }
   return (
-    <form onSubmit={handleSubmit} className={styles.Form}>
+    <>
+      <form onSubmit={handleSubmit} className={styles.Form}>
         <h1>Kontakt</h1>
-      <textarea id="message" name="message" placeholder="Twoja wiadomość" />
-      <div>
-        <input id="email" type="email" name="email" placeholder="Adres email" />
-        <ValidationError prefix="Email" field="email" errors={state.errors} />
+        <textarea id="message" name="message" placeholder="Twoja wiadomość" />
+        <div>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Adres email"
+          />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
 
-        <ValidationError
-          prefix="Message"
-          field="message"
-          errors={state.errors}
-        />
-        <button type="submit">Wyślij Wiadomość</button>
-      </div>
-    </form>
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
+          <button type="submit">Wyślij Wiadomość</button>
+        </div>
+      </form>
+      <p className={styles.Text}>W sprawie cen obrazów zapraszam do kontaktu poprzez formularz kontaktowy</p>
+    </>
   );
 }
 
