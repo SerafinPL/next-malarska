@@ -9,7 +9,7 @@ import ContactForm from "../components/ContactForm/ContactForm";
 import FadeInSection from "../components/FadeFunc/FadeFunc";
 import Footer from "../components/Footer/Footer";
 
-export default function Home() {
+const Home = (props) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -68,10 +68,23 @@ export default function Home() {
         <Bio />
       </FadeInSection>
       <FadeInSection>
-        <ContactForm />
+        <ContactForm formKey={props.formKey}/>
       </FadeInSection>
 
       <Footer />
     </div>
   );
 }
+
+export default Home;
+
+
+export const getStaticProps = async () => {
+
+
+  return {
+    props: {
+      formKey: process.env.NEXT_PUBLIC_ENDP,
+    },
+  };
+};

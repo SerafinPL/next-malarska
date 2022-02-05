@@ -5,7 +5,7 @@ import styles from "./formspree.module.scss";
 import { useForm, ValidationError } from "@formspree/react";
 
 function Formspree(props) {
-  const [state, handleSubmit] = useForm("xlezjdor");
+  const [state, handleSubmit] = useForm(props.formKey);
 
   if (state.succeeded) {
     return <p className={styles.Text}>Dziękuje za wysłanie wiadomości</p>;
