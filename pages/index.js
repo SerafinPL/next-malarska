@@ -32,37 +32,37 @@ const Home = (props) => {
         <LookArt fileName="plewbig" title='Plew' > opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="gnoznezjabig" />
+        <LookArt fileName="gnoznezjabig" title='Plew'> opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="jest_superbig" />
+        <LookArt fileName="jest_superbig" title='Plew'> opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="matkabig" />
+        <LookArt fileName="matkabig" title='Plew' > opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="autoportret-z-maskamibig" />
+        <LookArt fileName="autoportret-z-maskamibig" title='Plew' > opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="melancholikbig" />
+        <LookArt fileName="melancholikbig" title='Plew'> opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="miłoscbig" />
+        <LookArt fileName="miłoscbig" title='Plew'> opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="autoportretzkrolikiembig" />
+        <LookArt fileName="autoportretzkrolikiembig" title='Plew'> opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="melancholjabig" />
+        <LookArt fileName="melancholjabig" title='Plew'> opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="autoportretbig" />
+        <LookArt fileName="autoportretbig" title='Plew'> opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="wedrowiec" />
+        <LookArt fileName="wedrowiec" title='Plew'> opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
-        <LookArt fileName="reminiscencje" />
+        <LookArt fileName="reminiscencje" title='Plew'> opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
         <Bio />
