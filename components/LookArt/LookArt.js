@@ -10,23 +10,31 @@ const LookArt = (props) => {
   };
 
   return (
-    <div className={`${styles.LookArt} ${lookState ? styles.moved : " "}`}>
+    <div className={styles.LookArt}>
       <div
         className={`${styles.firstLook} ${
-          lookState ? styles.secondOpen : " "
+          lookState ? styles.firstOpen : " "
         }`}
       >
         <img
           src={`assets/${props.fileName}.png`}
           alt={props.alt}
-          onClick={() => changeLookStateHandler(!lookState)}
+          onClick={() => changeLookStateHandler(true)}
         />
       </div>
       <div
         className={`${styles.secondLook} ${
           lookState ? styles.secondOpen : " "
         }`}
-      ></div>
+      >
+      <div className="empty"><img
+          src={`assets/${props.fileName}.png`}
+          alt={props.alt}
+          onClick={() => changeLookStateHandler(false)}
+        /></div>
+      <div className={styles.full}> <p>Bubu bzdury</p></div>
+
+      </div>
     </div>
   );
 };

@@ -1,20 +1,24 @@
 .LookArt {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   background-color: #000;
   transition: all 800ms;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
   // overflow-x: hidden;
 
-  //   &.moved {
-  //     max-width: 50%;
-  //   }
+    // &.moved {
+    //   justify-content: start;
+    // }
 
   img {
     max-width: 100%;
     margin: 100px 0;
     max-height: 80vh;
     cursor: pointer;
+    
   }
 
   div.firstLook {
@@ -25,18 +29,42 @@
     justify-content: center;
     background-color: #000;
     min-width: 100vw;
-
-    &.secondOpen {
-        background-color: #fff;
-      min-width: 50vw;
+    left: 0%;
+    position: absolute;
+    &.firstOpen {
+        left: -100%;
     }
   }
 
   div.secondLook {
-    width: 50%;
+    width: 100%;
     min-height: 100%;
 
     background-color: #fff;
     transition: all 800ms;
+    position: absolute;
+    left: 110%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    div{
+        
+        height: 100%;
+        padding: 25px;
+    }
+
+    .full{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 50%; 
+    }
+
+    &.secondOpen {
+        left: 0%;
+      }
   }
 }
