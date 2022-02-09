@@ -1,40 +1,42 @@
-.LookArt{
+.LookArt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #000;
+  transition: all 800ms;
+  // overflow-x: hidden;
+
+  //   &.moved {
+  //     max-width: 50%;
+  //   }
+
+  img {
+    max-width: 100%;
+    margin: 100px 0;
+    max-height: 80vh;
+    cursor: pointer;
+  }
+
+  div.firstLook {
+    width: 50%;
+    transition: all 800ms;
     display: flex;
     flex-direction: row;
     justify-content: center;
     background-color: #000;
-    
-    overflow-x: hidden;
+    min-width: 100vw;
 
-    &.moved{
-        max-width: 50%;
-    }
-
-    img{
-        max-width: 100%;
-        margin: 100px 0;
-        max-height: 80vh;
-        cursor: pointer;
-
-        
-    }
-
-    div.firstLook{
-        width: 100vw;
-    }
-
-    div.secondLook{
-        
-        width: 50vw;
-        height: 100%;
-        right: -60%;
+    &.secondOpen {
         background-color: #fff;
-        transition: right 200ms;
-        
-        &.secondOpen{
-            right: -100%;
-        }
+      min-width: 50vw;
     }
+  }
 
-    
+  div.secondLook {
+    width: 50%;
+    min-height: 100%;
+
+    background-color: #fff;
+    transition: all 800ms;
+  }
 }
