@@ -66,5 +66,9 @@
     &.secondOpen {
         left: 0%;
       }
+
+    @media screen and (win-width: 750px) {
+      flex-direction: column;
+    }
   }
 }
