@@ -29,7 +29,7 @@ const Home = (props) => {
 
       <SietHeader />
       <FadeInSection>
-        <LookArt fileName="plewbig" />
+        <LookArt fileName="plewbig" title='Plew' > opis opis <br/> enter</LookArt>
       </FadeInSection>
       <FadeInSection>
         <LookArt fileName="gnoznezjabig" />

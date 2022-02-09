@@ -1,24 +1,25 @@
 .LookArt {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
   background-color: #000;
   transition: all 800ms;
   position: relative;
   width: 100vw;
   height: 100vh;
+  align-items: center;
   // overflow-x: hidden;
 
-    // &.moved {
-    //   justify-content: start;
-    // }
+  // &.moved {
+  //   justify-content: start;
+  // }
 
   img {
     max-width: 100%;
     margin: 100px 0;
-    max-height: 80vh;
+    max-height: 50vh;
     cursor: pointer;
-    
+    margin: 0;
   }
 
   div.firstLook {
@@ -32,7 +33,7 @@
     left: 0%;
     position: absolute;
     &.firstOpen {
-        left: -100%;
+      left: -100%;
     }
   }
 
@@ -45,30 +46,47 @@
     position: absolute;
     left: 110%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
-    div{
-        
-        height: 100%;
-        padding: 25px;
+    div {
+      height: 100%;
+      padding: 25px;
+      max-height: 80vh;
     }
 
-    .full{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        min-width: 50%; 
+    .full {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: 30%;
+      min-width: 50%;
+      color: #000;
+
+      p{
+        color: #000;
+        background-color: #fff;
+      }
     }
 
     &.secondOpen {
-        left: 0%;
-      }
+      left: 0%;
+    }
+  }
 
-    @media screen and (win-width: 750px) {
-      flex-direction: column;
+  @media screen and (min-width: 600px) {
+    img {
+      
+      
+      max-height: 80vh;
+     
+    }
+    
+    div.secondLook {
+      flex-direction: row;
+      align-items: center;
     }
   }
 }
