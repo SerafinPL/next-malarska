@@ -12,7 +12,7 @@ function Formspree(props) {
   }
   return (
     <>
-      <form onSubmit={handleSubmit} className={styles.Form}>
+      <form onSubmit={handleSubmit} className={styles.Form} id='kontakt'>
         <h1>Kontakt</h1>
         <textarea id="message" name="message" placeholder="Twoja wiadomość" />
         <div>

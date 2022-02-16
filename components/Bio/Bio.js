@@ -4,7 +4,7 @@ import styles from "./Bio.module.scss";
 
 const Bio = (props) => {
   return (
-    <div className={styles.Bio}>
+    <div className={styles.Bio} id='bio'>
       <h1>Bio</h1>
 
       <p>

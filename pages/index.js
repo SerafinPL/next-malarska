@@ -32,7 +32,7 @@ const Home = (props) => {
 
       <SietHeader />
       <FadeInSection>
-        <LookArt fileName="plewbig" title="Plew" >
+        <LookArt fileName="plewbig" title="Plew" id='art' >
          
           Z cyklu „Czarne słońca, czarna żółć”
           <br />
@@ -166,12 +166,11 @@ const Home = (props) => {
           farba olejna na płótnie
         </LookArt>
       </FadeInSection>
-      <FadeInSection>
+      
         <Bio />
-      </FadeInSection>
-      <FadeInSection>
+      
         <ContactForm formKey={props.formKey} />
-      </FadeInSection>
+      
 
       <Footer />
     </div>

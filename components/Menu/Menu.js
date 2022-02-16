@@ -16,9 +16,9 @@ const Menu = (props) => {
       >
         <CloseButton clicked={props.closeClick} />
 
-        <Link href="#">Malarstwo</Link>
-        <Link href="#">Bio</Link>
-        <Link href="#">Kontakt</Link>
+        <Link href="#art">Malarstwo</Link>
+        <Link href="#bio">Bio</Link>
+        <Link href="#kontakt">Kontakt</Link>
         <img src="assets/anitkalogo.png" alt="Logo Anita Machura, Anity Machury" />
         <p>Polski/Niemiecki/Angilksi</p>
       </nav>
