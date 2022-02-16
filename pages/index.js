@@ -31,8 +31,8 @@ const Home = (props) => {
       </Head>
 
       <SietHeader />
-      <FadeInSection>
-        <LookArt fileName="plewbig" title="Plew" id='art' >
+      <FadeInSection >
+        <LookArt fileName="plewbig" title="Plew" idToMenu='art' >
          
           Z cyklu „Czarne słońca, czarna żółć”
           <br />
