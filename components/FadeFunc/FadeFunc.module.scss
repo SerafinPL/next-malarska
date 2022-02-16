@@ -6,8 +6,8 @@
     opacity: 0;
     transform: translateY(50vh);
     visibility: hidden;
-    transition: opacity 1500ms ease-out, transform 800ms ease-out,
-      visibility 1500ms ease-out;
+    transition: opacity 700ms ease-out, transform 300ms ease-out,
+      visibility 700ms ease-out;
     will-change: opacity, transform, visibility;
   }
   .fadeInSection.isVisible {
